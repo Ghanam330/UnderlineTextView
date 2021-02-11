@@ -6,16 +6,17 @@ dependencies {
 	        implementation 'com.github.Ghanam330:UnderlineTextView:x.x.x.'
   }
 ...
+
+
 then
 Add support JitPack repository in root build.gradle at the end of repositories:
 ...
-    allprojects {
+  allprojects {
        repositories {
-		...
-		maven { url 'https://jitpack.io' }
-              }
-          } 
-	  
+	...
+	maven { url 'https://jitpack.io' }
+           }
+     }   
 ...
   # Implemntation in your XML File
   All you will do
@@ -30,5 +31,5 @@ Add support JitPack repository in root build.gradle at the end of repositories:
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-...
+
   
