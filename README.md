@@ -3,10 +3,10 @@ This lib to put line under your text view in your android xml file only
 
 ...
 
-dependencies {
+    dependencies {
 	        implementation 'com.github.Ghanam330:UnderlineTextView:x.x.x.'
-  }
-  
+           }
+   
 ...
 
 
@@ -15,12 +15,12 @@ Add support JitPack repository in root build.gradle at the end of repositories:
 
 ...
 
-  allprojects {
-       repositories {
-	...
-	maven { url 'https://jitpack.io' }
+       allprojects {
+            repositories {
+     ...
+	     maven { url 'https://jitpack.io' }
            }
-     }   
+       }   
 ...
 
   # Implemntation in your XML File
