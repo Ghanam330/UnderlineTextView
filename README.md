@@ -2,15 +2,19 @@
 This lib to put line under your text view in your android xml file only
 
 ...
+
 dependencies {
 	        implementation 'com.github.Ghanam330:UnderlineTextView:x.x.x.'
   }
+  
 ...
 
 
 then
 Add support JitPack repository in root build.gradle at the end of repositories:
+
 ...
+
   allprojects {
        repositories {
 	...
@@ -18,9 +22,12 @@ Add support JitPack repository in root build.gradle at the end of repositories:
            }
      }   
 ...
+
   # Implemntation in your XML File
   All you will do
+  
 ...
+
   
     <com.codestomp.textviewunderline.UnderlineTextView
         android:layout_width="wrap_content"
